@@ -4,10 +4,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram Bot Token
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '8180960426:AAFmpswRZKJqikqiubD8V45AQGfOFGi5tJk')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', 'Your telegram bot token')
 
 # OpenAI API Key
-OPENAI_API_KEY = os.getenv('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')
+OPENAI_API_KEY = os.getenv('Your Open AI key')
 
 # Database
 DATABASE_PATH = 'outfitify.db'
